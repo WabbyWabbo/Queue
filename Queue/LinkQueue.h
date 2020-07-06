@@ -27,7 +27,7 @@ bool IsEmpty(LinkQueue Q) {
 void EnQueue(LinkQueue& Q, ElemType x) {
 	LNode* s = (LNode*)malloc(sizeof(LNode));
 	s->data = x;
-	s->next = NULL;
+	s->next = NULL;//don't forget it
 	Q.rear->next = s;
 	Q.rear = s;
 }
