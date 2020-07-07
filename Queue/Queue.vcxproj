@@ -139,10 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SqQueue.h" />
+    <ClCompile Include="3.2.5_1.cpp" />
+    <ClCompile Include="3.2.5_2.cpp" />
+    <ClCompile Include="3.2.5_3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Stack\Stack\SqStack.h" />
     <ClInclude Include="LinkQueue.h" />
+    <ClInclude Include="SqQueue.h" />
+    <ClInclude Include="SqQueue_With_Tag.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
